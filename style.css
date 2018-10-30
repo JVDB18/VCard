@@ -86,7 +86,11 @@ h1, h3 {
     display: inline;
     margin-top: 30px;
     font-weight: normal;
+    color:#a74b80;
  
+}
+h2 {
+    color: #df4081;
 }
 .titre {
     justify-content: center;
@@ -100,6 +104,7 @@ h1, h3 {
     justify-content: center;
     display: flex;
     margin-top: 10px;
+    color: #dee3e4;
 }
 blockquote{
     align-items: center;
@@ -107,6 +112,7 @@ blockquote{
     justify-content: center;
     display: flex;
     margin-top: 10px;
+    color: #dee3e4;
 }
 .description {
     border-left: 4px solid white;
@@ -163,11 +169,14 @@ blockquote{
     
 }
 a {
-    color: white;
+    color:#5285b3;
     text-decoration: none;
 }
 a:hover{
-    color: white;
+    color:#5285b3;
+}
+a:visited{
+    color:#5285b3;
 }
 .footer{
     display: flex;
@@ -181,4 +190,7 @@ a:hover{
 }
 .foot:hover{
 transform: scale(1.3);
+}
+ul, li{
+    color:#9967a2;
 }
